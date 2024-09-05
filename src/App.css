@@ -1,0 +1,233 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f2f5;
+}
+
+header {
+  background-color: #0078d4;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  background-color: #0078d4;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #005bb5;
+}
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto;
+  width: 90%;
+  max-width: 600px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  color: white;
+  font-size: 24px;
+  transition: background-color 0.5s ease;
+}
+
+.carousel-control {
+  position: absolute;
+  top: 50%;
+  font-size: 36px;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  border: none;
+  cursor: pointer;
+  transform: translateY(-50%);
+}
+
+.carousel-control.prev {
+  left: 10px;
+}
+
+.carousel-control.next {
+  right: 10px;
+}
+
+.dashboard .content {
+  text-align: center;
+  margin: 40px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.login-btn {
+  padding: 12px 24px;
+  background-color: #4caf50;
+}
+
+.logout-btn {
+  padding: 12px 24px;
+  background-color: #ff9800;
+}
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto;
+  width: 90%;
+  max-width: 600px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  background-color: #f0f2f5;
+}
+
+.carousel-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 100%;
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-control {
+  position: absolute;
+  top: 50%;
+  font-size: 36px;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+
+.carousel-control.prev {
+  left: 10px;
+}
+
+.carousel-control.next {
+  right: 10px;
+}
+
+.carousel-slide:nth-child(1) {
+  background-color: #0078d4;
+}
+
+.carousel-slide:nth-child(2) {
+  background-color: #4caf50;
+}
+
+.carousel-slide:nth-child(3) {
+  background-color: #ff9800;
+}
+
+/* Home Page Styling */
+.home-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f8f9fa;
+  justify-content: space-between;
+}
+
+.header {
+  background-color: #0078d4;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.logo h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.nav .login-btn {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.nav .login-btn:hover {
+  background-color: #388e3c;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Vertically center the content */
+  align-items: center;     /* Horizontally center the content */
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #f0f2f5;
+}
+
+.intro {
+  /* max-width: 800px; */
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.intro h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.intro p {
+  font-size: 18px;
+  color: #555;
+  margin: 0 auto;
+}
+
+.carousel {
+  margin-bottom: 40px; /* Space between the carousel and the footer */
+}
+
+.footer {
+  background-color: #0078d4;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: auto;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 14px;
+}
